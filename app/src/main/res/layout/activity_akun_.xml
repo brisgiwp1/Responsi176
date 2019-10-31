@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Akun_Activity">
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="NAMA"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/seko"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nam"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="ASAL KOTA"
+        android:textColor="#FD0A0A0A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rumu"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seko"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="UMUR"
+        android:textColor="#F5000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/nam"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/nam"
+        android:textColor="#F80E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/asal"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nam"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/seko"
+        android:textColor="#FA0A0A0A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/umr"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asal"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/rumu"
+        android:textColor="#E91E63"
+        android:textSize="18sp" />
+
+</RelativeLayout>
